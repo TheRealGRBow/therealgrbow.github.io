@@ -2,17 +2,20 @@
 
 import { useEffect } from "react";
 import "./Home.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <nav>
         <figure>
-          <img
+          <Image
             className="pointer-events-none"
             draggable="false"
-            src="/images/therealgrbow.png"
+            src="/images/homebow.png"
             alt="TheRealGRBow Logo"
+            width="500"
+            height="500"
           />
         </figure>
       </nav>
