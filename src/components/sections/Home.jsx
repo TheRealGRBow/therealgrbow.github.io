@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <nav>
         <figure>
-          <img
+          <Image
             className="pointer-events-none"
             draggable="false"
             src="/images/therealgrbow.png"
