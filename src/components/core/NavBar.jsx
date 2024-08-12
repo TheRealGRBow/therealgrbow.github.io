@@ -8,6 +8,7 @@ import { useState } from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import EventSeatIcon from "@mui/icons-material/EventSeat";
 import InfoIcon from "@mui/icons-material/Info";
+import EmailIcon from "@mui/icons-material/Email";
 
 export default function NavBar() {
   useEffect(() => {
@@ -40,6 +41,25 @@ export default function NavBar() {
                     className="hover:text-yellow-500 flex flex-col items-center"
                   >
                     <p>Home</p>
+                    <HomeIcon />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/about"
+                    className="hover:text-yellow-500 flex flex-col items-center"
+                  >
+                    <p>About</p>
+                    <InfoIcon />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/charity"
+                    className="hover:text-yellow-500 flex flex-col items-center"
+                  >
+                    <p>Charity</p>
+                    <EventSeatIcon />
                   </a>
                 </li>
               </ul>

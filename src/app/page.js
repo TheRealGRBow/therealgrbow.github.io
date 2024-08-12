@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 
 const Home = dynamic(() => import("../components/sections/Home"));
-const Socials = dynamic(() => import("../components/sections/Socials"));
 
 export default function Start() {
   return (
