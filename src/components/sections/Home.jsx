@@ -11,7 +11,7 @@ export default function Home() {
           <Image
             className="pointer-events-none"
             draggable="false"
-            src="/images/homebow.png"
+            src="/images/homebow.svg"
             alt="TheRealGRBow Logo"
             width="500"
             height="500"
