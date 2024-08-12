@@ -14,7 +14,7 @@ export default function Charity({ pageSearchParams }) {
   return (
     <article className="m-0 p-3 pt-20 bg-gradient-to-br from-blue-800 to-rose-800 h-full">
       <section
-        className="drop-shadow-[1px_2px_var(--tw-shadow-color)] shadow-black"
+        className="drop-shadow-[1px_1px_var(--tw-shadow-color)] shadow-black"
         id="when"
       >
         <h2 className="text-3xl pt-9">Charity</h2>
@@ -25,7 +25,7 @@ export default function Charity({ pageSearchParams }) {
         </p>
       </section>
       <section
-        className="drop-shadow-[1px_2px_var(--tw-shadow-color)] shadow-black"
+        className="drop-shadow-[1px_1px_var(--tw-shadow-color)] shadow-black"
         id="Events"
       >
         <ul className="pt-6">

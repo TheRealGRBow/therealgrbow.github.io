@@ -14,7 +14,7 @@ export default function About({ pageSearchParams }) {
   return (
     <article className="m-0 p-3 pt-20 bg-gradient-to-br from-blue-800 to-rose-800 h-full">
       <section
-        className="pt-6 drop-shadow-[1px_2px_var(--tw-shadow-color)] shadow-black"
+        className="pt-6 drop-shadow-[1px_1px_var(--tw-shadow-color)] shadow-black"
         id="home"
       >
         <p className="text-2xl">About Me</p>
@@ -36,7 +36,7 @@ export default function About({ pageSearchParams }) {
         </p>
       </section>
       <section
-        className="pt-6 drop-shadow-[1px_2px_var(--tw-shadow-color)] shadow-black"
+        className="pt-6 drop-shadow-[1px_1px_var(--tw-shadow-color)] shadow-black"
         id="socials"
       >
         <p className="text-2xl">Social Media & Other Platforms</p>
