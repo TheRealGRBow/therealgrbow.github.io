@@ -34,7 +34,7 @@ export default function NavBar() {
           <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
           {isOpen && (
             <div className="fixed left-0 shadow-4xl right-0 p-5 pt-0 bg-blue-900/95">
-              <ul className="grid grid-rows-3 grid-cols-3">
+              <ul className="grid grid-rows-2 grid-cols-2">
                 <li>
                   <a
                     href="/#home"
@@ -60,6 +60,15 @@ export default function NavBar() {
                   >
                     <p>Charity</p>
                     <EventSeatIcon />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:therealgrbow@gmail.com"
+                    className="hover:text-yellow-500 flex flex-col items-center"
+                  >
+                    <p>Contact</p>
+                    <EmailIcon />
                   </a>
                 </li>
               </ul>
@@ -96,6 +105,15 @@ export default function NavBar() {
             >
               <p>Charity</p>
               <EventSeatIcon />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:therealgrbow@gmail.com"
+              className="hover:text-yellow-500 flex flex-col items-center"
+            >
+              <p>Contact</p>
+              <EmailIcon />
             </a>
           </li>
           <li></li>

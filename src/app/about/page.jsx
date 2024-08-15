@@ -1,9 +1,9 @@
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import VideocamIcon from "@mui/icons-material/Videocam";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import { FaDiscord } from "react-icons/fa6";
 import { IoLogoTwitch } from "react-icons/io";
+import EmailIcon from "@mui/icons-material/Email";
 
 export const metadata = {
   title: "TheRealGRBow | About",
@@ -127,6 +127,22 @@ export default function About({ pageSearchParams }) {
             Any and all of my speedrunnin personal bests will be at the link
             there. I don't have any world records, nor am I a good contender for
             any. Just there to submit my times and gave a good time too!
+          </p>
+        </ul>
+        <ul className="pt-6">
+          <p className="text-2xl">
+            Contact Me
+            <a
+              href="mailto:therealgrbow@gmail.com"
+              className="hover:text-yellow-500 items-center pl-2"
+            >
+              <EmailIcon />
+            </a>
+          </p>
+          <p className="pt-2">
+            If you ever have any questions, comments, or concerns, please
+            contact me by clicking the above icon, or by clicking "Contact Me"
+            on the Nav Bar! I'll do my best to answer within 24-72 hours!
           </p>
         </ul>
       </section>
