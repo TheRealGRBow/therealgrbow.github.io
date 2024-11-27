@@ -11,7 +11,7 @@ export default function Cassieimage() {
           <Image
             className="pointer-events-none"
             draggable="false"
-            src="/images/cassie.svg"
+            src="/images/Cassie.svg"
             alt="her"
             width="500"
             height="500"

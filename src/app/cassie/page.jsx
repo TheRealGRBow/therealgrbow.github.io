@@ -142,12 +142,12 @@ export default function Cassie() {
           them. Thank you. I love you so much Cassie. Hope you like your
           present.
         </p>
+        <p className="pt-3">
+          Also, enjoy one of my favorite pictures of you, cause I love you. You
+          little perfect you. Look at you looking so pretty with the last gift I
+          got you. I love you so much
+        </p>
         <div className="pt-3">
-          <p>
-            Also, enjoy one of my favorite pictures of you, cause I love you.
-            You little perfect you. Look at you looking so pretty with the last
-            gift I got you. I love you so much
-          </p>
           <Cassieimage />
         </div>
       </section>
