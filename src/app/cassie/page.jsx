@@ -149,7 +149,9 @@ export default function Cassie() {
           </p>
           <figure>
             <Image
-              src="/images/cassie.jpg"
+              className="pointer-events-none"
+              draggable="false"
+              src="/images/cassie.svg"
               alt="her"
               height="200"
               width="200"
