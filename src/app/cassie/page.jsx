@@ -1,3 +1,4 @@
+import Cassieimage from "@/components/sections/Cassie";
 import Image from "next/image";
 
 export const metadata = {
@@ -147,16 +148,7 @@ export default function Cassie() {
             You little perfect you. Look at you looking so pretty with the last
             gift I got you. I love you so much
           </p>
-          <figure>
-            <Image
-              className="pointer-events-none"
-              draggable="false"
-              src="/images/cassie.svg"
-              alt="her"
-              height="200"
-              width="200"
-            />
-          </figure>
+          <Cassieimage />
         </div>
       </section>
     </article>
