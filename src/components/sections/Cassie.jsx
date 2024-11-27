@@ -11,10 +11,10 @@ export default function Cassieimage() {
           <Image
             className="pointer-events-none"
             draggable="false"
-            src="/images/Cassie.svg"
+            src="/images/Cassie.jpg"
             alt="her"
-            width="500"
-            height="500"
+            width="200"
+            height="200"
           />
         </figure>
       </nav>
